@@ -1,10 +1,11 @@
 require("./index.scss");
 import React from 'react';
 import ReactDOM from 'react-dom';
+import CurrencyApplication from './currencyApplication'
 
 jQuery(document).ready(() => {
     ReactDOM.render(
-        <h1>Currency UI</h1>,
+        <CurrencyApplication />,
         document.getElementById('page-content')
     );
 });
